@@ -1,0 +1,173 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+    background: #5eb4e9;
+    color: #fff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header .nav-links a:hover {
+    color: #e0e0e0;
+}
+
+/* Hero Section */
+#hero {
+    background: linear-gradient(135deg, #4CAF50, #388E3C);
+    color: #fff;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+#hero .cta {
+    background: #fff;
+    color: #4CAF50;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#hero .cta:hover {
+    background: #e0e0e0;
+}
+
+/* Sections */
+section {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+section p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+/* Projects Section */
+#projects .project {
+    background: #fff;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: left;
+}
+
+#projects .project h3 {
+    color: #4CAF50;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#projects .project a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#projects .project a:hover {
+    color: #388E3C;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    color: #555;
+}
+
+/* Contact Section */
+#contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: left;
+}
+
+#contact li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+#contact a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#contact a:hover {
+    color: #388E3C;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
